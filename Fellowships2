@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Target Audience & Scientific Projects</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px;
+      line-height: 1.7;
+      color: #333;
+    }
+
+    h1, h2 {
+      color: #004080;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .back-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #004080;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-bottom: 30px;
+    }
+
+    .back-button:hover {
+      background-color: #0066cc;
+    }
+
+    .level-card {
+      background: #f4f8ff;
+      border-left: 6px solid #004080;
+      padding: 15px 20px;
+      margin: 15px 0;
+      border-radius: 6px;
+    }
+
+    .level-title {
+      font-weight: bold;
+      color: #004080;
+      margin-bottom: 5px;
+    }
+
+    .amount {
+      margin-top: 5px;
+    }
+
+    .note-box {
+      background: #f9f9f9;
+      border-left: 4px solid #888;
+      padding: 15px;
+      margin-top: 20px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+
+<body>
+
+<a href="index.html" class="back-button">← Back to Home</a>
+
+<h1>Definition of the Target Audience & Scientific Projects</h1>
+
+<div class="section">
+
+  <p>
+    Scientific research is a progressive activity that begins at the undergraduate level,
+    continues through Master's studies, and extends to PhD and postdoctoral research.
+  </p>
+
+  <p>
+    Each stage corresponds to increasing scientific responsibility, autonomy, and expected impact.
+  </p>
+
+</div>
+
+<div class="section">
+
+  <h2>Funding Levels</h2>
+
+  <div class="level-card">
+    <div class="level-title">Bolsa de Iniciação à Investigação (BII)</div>
+    <div class="amount">
+      €701.12 – €1,090.98 / month<br>
+      €8,413.44 – €13,091.76 / year
+    </div>
+    Introductory research training at undergraduate level.
+  </div>
+
+  <div class="level-card">
+    <div class="level-title">Bolsa de Investigação (BI) – Non-degree students / Graduates</div>
+    <div class="amount">
+      €1,090.98 – €1,852.52 / month<br>
+      €13,091.76 – €22,230.24 / year
+    </div>
+    Development of advanced research skills, potentially leading to publications.
+  </div>
+
+  <div class="level-card">
+    <div class="level-title">Bolsa de Investigação (BI) – Master’s level</div>
+    <div class="amount">
+      €1,090.98 – €1,852.52 / month<br>
+      €13,091.76 – €22,230.24 / year
+    </div>
+    Research training within Master's studies.
+  </div>
+
+  <div class="level-card">
+    <div class="level-title">Bolsa de Investigação (BI) – Doctoral level</div>
+    <div class="amount">
+      €1,359.64 – €2,168.65 / month<br>
+      €16,315.68 – €26,023.80 / year
+    </div>
+    Full-time original research leading to a PhD thesis.
+  </div>
+
+  <div class="level-card">
+    <div class="level-title">Bolsa de Investigação Pós-Doutoral (BIPD)</div>
+    <div class="amount">
+      €1,901.00 – €2,712.03 / month<br>
+      €22,812.00 – €32,544.36 / year
+    </div>
+    Independent research with increasing scientific autonomy.
+  </div>
+
+</div>
+
+<div class="section">
+
+  <h2>Funding Policy</h2>
+
+  <div class="note-box">
+    <p>
+      Funding is exclusively dedicated to human research activity and scientific output.
+      No material costs (equipment, hardware, etc.) are included.
+    </p>
+
+    <p>Eligible expenses include:</p>
+
+    <ul>
+      <li>Research fellowships and contracts</li>
+      <li>Conference participation (registration, travel, accommodation)</li>
+    </ul>
+  </div>
+
+  <p>
+    All research activities will be conducted at the University of Lisbon.
+  </p>
+
+</div>
+
+</body>
+</html>
