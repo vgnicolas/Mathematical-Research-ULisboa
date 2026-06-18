@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funding Opportunities | Scientific Research</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            background: linear-gradient(135deg, #0066cc, #004080);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1.2rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+        .intro {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .intro h2 {
+            color: #0066cc;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        .project-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+        .project-card h3 {
+            color: #0066cc;
+            margin-top: 0;
+            cursor: pointer;
+        }
+        .project-card h3:hover {
+            text-decoration: underline;
+        }
+        .project-card p {
+            margin-bottom: 0;
+        }
+        .funding-info {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .funding-info h2 {
+            color: #0066cc;
+        }
+        .contact {
+            background: #0066cc;
+            color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .contact a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #004080;
+        }
+        .project-detail {
+            display: none;
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 1rem 0;
+        }
+        .project-detail h2 {
+            color: #0066cc;
+        }
+        .back-button {
+            background: #0066cc;
+            color: white;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-bottom: 1rem;
+        }
+        .back-button:hover {
+            background: #004080;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Research Projects & Funding Support</h1>
+        <p>Advancing Scientific Discovery and Innovation</p>
+    </header>
+
+    <div class="container">
+        <section class="intro">
+            <h2>Support Innovative Scientific Research</h2>
+            <p>
+                We welcome discussions with funding agencies, foundations, industry partners, and philanthropic organizations. 
+                <p>
+                Contact us to learn more about collaboration and sponsorship opportunities.
+            </p>
+                <a href="Intro.html" class="details-button"> Research Context & Public Mission → </a> </p>
+            <p>
+                Join us in advancing scientific discovery and innovation.
+            </p>
+        </section>
+
+        <section class="funding-info">
+            <h2>Research Projects Open for Sponsorship</h2>
+            <p>Four research projects are currently available for external funding.</p>
+            <p>Funding is available for <span class="highlight">PhD students, Junior, and Senior researchers.</span></p>
+</p>
+                <a href="Fellowships2.html" class="details-button"> Target Audience & Funding Structure → </a> </p>
+            <p>
+                
+        </section>
+        
+<section class="projects">
+    <div class="project-card">
+        <h3 onclick="showProjectDetail('project1')">
+            Mathematical Modelling of Plasticity in Solid Mechanics
+        </h3>
+
+        <p>
+            We develop a novel mathematical framework for <strong>elasto-plastic deformation in solids</strong>,
+            combining rigorous theory with numerical simulation.
+        </p>
+
+        <p>
+            The model aims to describe how materials transition from reversible elastic behavior
+            to irreversible plastic flow driven by microstructural mechanisms such as dislocation dynamics.
+        </p>
+
+        <p>
+            <strong>Applications include:</strong> failure prediction in deformable solids,
+            advanced manufacturing processes (forming, forging, extrusion), and the simulation of
+            next-generation engineered materials.
+        </p>
+    </div>
+
+    <div class="project-card">
+    <h3 onclick="showProjectDetail('project2')">
+        Modelling & Discrete Optimization for Forest Systems
+    </h3>
+
+    <p>
+        We develop advanced mathematical models and <strong>discrete optimization methods</strong>
+        for the design and management of forest infrastructures.
+    </p>
+
+    <p>
+        The focus is on improving <strong>accessibility, resilience, and operational efficiency</strong>
+        of forest road networks under uncertainty, particularly in emergency situations such as wildfires.
+    </p>
+
+    <p>
+        <strong>Application domain:</strong> optimal design of forest road systems to support
+        wildfire prevention and response, ensuring rapid and safe access for firefighting operations
+        while minimizing environmental and construction costs.
+    </p>
+</div>
+    
+   <div class="project-card">
+    <h3 onclick="showProjectDetail('project3')">
+        Geometric & Topological Data Modelling
+    </h3>
+
+    <p>
+        We develop mathematical and computational methods based on <strong>geometry and topology</strong>
+        for the analysis of complex high-dimensional and time-dependent data.
+    </p>
+
+    <p>
+        The approach focuses on extracting robust structural information from data using
+        <strong>Topological Data Analysis (TDA)</strong>, enabling multi-scale representation and
+        intrinsic shape-based inference.
+    </p>
+
+    <p>
+        <strong>Applications include:</strong> machine learning and AI, robotics, anomaly detection,
+        neuroscience and cognitive science, audio and signal processing, biomedical data analysis,
+        environmental systems, and financial time series modelling.
+    </p>
+</div>
+
+<div class="project-card">
+    <h3 onclick="showProjectDetail('project4')">
+        Logic & Proof-Theoretic Methods in Computation
+    </h3>
+
+    <p>
+        We investigate methods from <strong>proof theory and mathematical logic</strong>
+        to extract quantitative information from non-constructive proofs.
+    </p>
+
+    <p>
+        The goal is to transform qualitative existence results into <strong>explicit computational content</strong>,
+        including rates of convergence, effective bounds, and algorithmic structures.
+    </p>
+
+    <p>
+        <strong>Applications include:</strong> reliable computation, verified optimization, provable machine learning,
+        safety-critical control systems, explainable AI, and complexity and resource analysis.
+    </p>
+</div>
+        </section>
+
+        <!-- Project Detail Sections -->
+        <div id="project1" class="project-detail">
+            <button class="back-button" onclick="hideProjectDetail('project1')">Back to Projects</button>
+            <h2>Mathematical Modelling in Mechanics</h2>
+            <p>
+                <strong>A novel model of Elasto-plasticity</strong> (theory & numerical simulations).
+                This project focuses on developing advanced models to predict failure and defects in deformable solids.
+                Applications include manufacturing and forming processes, as well as numerical simulations of new materials.
+            </p>
+            <p>
+                <strong>Key Objectives:</strong>
+                <ul>
+                    <li>Develop a novel elasto-plasticity model.</li>
+                    <li>Apply the model to predict failures and defects in deformable solids.</li>
+                    <li>Simulate manufacturing and forming processes.</li>
+                    <li>Explore numerical simulations for new materials.</li>
+                </ul>
+            </p>
+            <p>
+                <strong>Potential Impact:</strong> Improved material design, manufacturing efficiency, and defect prediction.
+                        </p>
+    <a href="project1.html" class="details-button"> View Full Project Description → </a> </p>
+        </div>
+
+        <div id="project2" class="project-detail">
+            <button class="back-button" onclick="hideProjectDetail('project2')">Back to Projects</button>
+            <h2>Modelling & Discrete Optimization</h2>
+            <p>
+                <strong>Mathematics for Forest Protection and Sustainability:</strong> 
+                This project aims to optimize access for firefighters to control forest fires effectively.
+            </p>
+            <p>
+                <strong>Key Objectives:</strong>
+                <ul>
+                    <li>Develop mathematical models for forest fire control.</li>
+                    <li>Optimize access routes for firefighters.</li>
+                    <li>Enhance sustainability practices in forest management.</li>
+                </ul>
+            </p>
+            <p>
+                <strong>Potential Impact:</strong> Enhanced forest protection, reduced fire damage, and sustainable forest management.
+            </p>
+             <a href="project2.html" class="details-button"> View Full Project Description → </a> </p>
+        </div>
+
+        <div id="project3" class="project-detail">
+            <button class="back-button" onclick="hideProjectDetail('project3')">Back to Projects</button>
+            <h2>Geometric & Topological Modelling</h2>
+            <p>
+                <strong>Analysis of time series data via topological data analysis.</strong>
+                This project explores the application of topological data analysis to various fields.
+            </p>
+            <p>
+                <strong>Key Applications:</strong>
+                <ul>
+                    <li>Machine Learning & AI</li>
+                    <li>Robotics</li>
+                    <li>Anomaly Detection & Fault Diagnosis</li>
+                    <li>Neuroscience & Cognitive Science</li>
+                    <li>Audio, Speech & Signal Processing</li>
+                    <li>Biomedical & Physiological Signals</li>
+                    <li>Earth & Environmental Systems</li>
+                    <li>Finance & Econometrics</li>
+                         <p>
+                <strong>Potential Impact:</strong> Advanced data analysis techniques for diverse scientific and industrial applications.
+            </p>
+             <a href="project3.html" class="details-button"> View Full Project Description → </a> </p>
+        </div>
+
+        <div id="project4" class="project-detail">
+            <button class="back-button" onclick="hideProjectDetail('project4')">Back to Projects</button>
+            <h2>Logic & Proof Theory</h2>
+            <p>
+                <strong>Extracting Quantitative Knowledge from Proofs:</strong> 
+                This project focuses on developing logical tools for reliable computation and optimization.
+            </p>
+            <p>
+                <strong>Key Applications:</strong>
+                <ul>
+                    <li>Reliable Computation</li>
+                    <li>Verified Optimization</li>
+                    <li>Provable ML/AI</li>
+                    <li>Safety-Critical Control</li>
+                    <li>Explainable AI</li>
+                    <li>Resource Bounds</li> 
+            <p>
+                <strong>Potential Impact:</strong> Enhanced reliability and safety in computational systems and AI applications.
+            </p>
+             <a href="project4.html" class="details-button"> View Full Project Description → </a> </p>
+        </div>
+
+        <section class="contact">
+            <h2>Get Involved</h2>
+            <p>
+                For more information about the projects, 
+          <a href="Funding_Opportunities.pdf" download>
+    Download the detailed PDF
+</a> or 
+            <a href="mailto:nvgoethem@ciencias.ulisboa.pt">contact us directly</a>.
+            <p>Private entity managing the funds:<a href="https://www.fciencias-id.pt/" style="color: #ffffff;" target="_blank" rel="noopener noreferrer"> FCiências.Id</a></p>
+             <a href="mailto:tsalesluis@fciencias-id.pt"> Any questions about fund management, scientific funding, tax benefits, and corporate sponsorship</a>.
+                       <p>Research center:<a href="https://cemsul.ciencias.ulisboa.pt/" style="color: #ffffff;" target="_blank" rel="noopener noreferrer"> CEMS.UL</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Funding Opportunities. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function showProjectDetail(projectId) {
+            // Hide all project details
+            const details = document.querySelectorAll('.project-detail');
+            details.forEach(detail => {
+                detail.style.display = 'none';
+            });
+            
+            // Hide all project cards
+            const projects = document.querySelector('.projects');
+            projects.style.display = 'none';
+            
+            // Show the selected project detail
+            const selectedDetail = document.getElementById(projectId);
+            selectedDetail.style.display = 'block';
+        }
+
+        function hideProjectDetail(projectId) {
+            // Hide the project detail
+            const selectedDetail = document.getElementById(projectId);
+            selectedDetail.style.display = 'none';
+            
+            // Show all project cards
+            const projects = document.querySelector('.projects');
+            projects.style.display = 'grid';
+        }
+    </script>
+</body>
+</html>
